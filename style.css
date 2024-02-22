@@ -1,0 +1,173 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+}
+
+body{
+    background-color: #696969;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 90%;
+    height: 97%;
+   }
+
+
+
+
+.entete{
+    position:relative;
+    background-color:#909090;
+    height: 24%;
+    border-radius: 15px;
+    margin-bottom: .5em;
+    box-shadow: 5px 5px 6px black;
+  }
+
+.left{
+   border-radius: 15px;
+    box-shadow: 5px 5px 6px black;
+    background-color:  #909090;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.central{
+    flex: 2;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #909090;
+  }
+
+.right{
+   border-radius: 15px;
+    box-shadow: 5px 5px 6px black;
+    background-color:  #909090;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.content{
+   display: flex;
+   height: 75%;
+   gap: 15px;
+   }
+
+.content > *:nth-child(1){
+    flex-basis: 20%;
+    height: 360px;
+}
+  
+.content > *:nth-child(3){
+    flex-basis: 20%;
+    height: 360px;
+}
+  
+
+.close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.reload{
+    width: 20px;
+    height: 20px; 
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+   
+.close img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reload img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texte{
+    width:550px;
+    height: 140px;
+    margin-left: .9em;
+   }
+
+.texte img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.loupe{
+    position: absolute;
+    right: 25px;
+    top: 18px;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pic{
+   max-width: 100%;
+    height:400px;
+  }
+
+  .small{
+    width: 60px;
+    height: 60px;
+  }
+
+  .small img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  .boite{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    transform: translate(-35%,45%);
+    background-color: #b0f2b5;
+    border-radius: 7px;
+    padding: 1em;
+    box-shadow: 5px 5px 6px black;
+   }
+
+  .champ{
+    display: flex;
+    margin-top: .5em;
+   }
+
+  button{
+    margin-left: 1em;
+    padding: .2em;
+    outline: none;
+   }
